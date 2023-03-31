@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        body{
+            padding: 0%;
+            margin: 0%;
+            background-image: url(https://images.unsplash.com/photo-1679978677453-9452668cb867?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+            background-size: cover;
+        }
+
+        .navbar{
+            display: flex;
+            width: 700px;
+            justify-content: center;
+            align-content: center;
+            background-color: rgb(233, 233, 233,0.5);
+            backdrop-filter: blur(0.5);
+            margin: 0px auto;
+            border-radius: 10px;
+            position: relative;
+            top: 250px;
+            box-sizing: border-box;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+            overflow: hidden;
+        }
+
+        .navbar ul{
+            display: inline-block;
+            margin: 15px;
+        }
+        .navbar ul li{
+            display: inline-block;
+            padding: 5px;
+            font-size: 18px;
+            justify-items: space-between;
+            align-items: space-between;
+            margin: 0px 20px;
+            transition: all 0.3s ease;
+        }
+
+        .navbar ul li:hover{
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-bottom: 2px solid grey;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Subscription</li>
+        </ul>
+    </div>
+</body>
+</html>
